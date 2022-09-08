@@ -33,7 +33,7 @@ p{
 .coluna{
     border-radius: 10px;
     margin: 10px;
-    background-color: rgb(124,122,242);
+    background-color: rgb(202, 202, 202);
 }
 .col{
     margin: 10px;
@@ -56,3 +56,34 @@ p{
    #margemPrincipal:hover{
      background-color: rgb(127, 123, 123) ;
    }
+
+   .card{
+    margin: 10%;
+    border: darkblue;
+    margin-top: 10px;
+   }
+
+   .btn btn-primary{
+    margin-top: 200px;
+   }
+
+   
+
+   .estrelas input[type=radio] {
+     display: none;
+   }
+   .estrelas label i.fa{
+     font-size: 2.5em;
+     margin-left: 2500%;
+ 
+
+   }
+   .estrelas label i.fa:before {
+     content:'\f005';
+     color: #FC0;
+   }
+   .estrelas input[type=radio]:checked ~ label i.fa:before {
+     color: #CCC;
+   }
+
+   

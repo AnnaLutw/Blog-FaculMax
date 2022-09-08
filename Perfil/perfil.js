@@ -21,6 +21,9 @@ function verficaDados(){
 
     document.getElementById("nomePerfil").innerHTML = user.usuario;
     document.getElementById("loginSenha").innerHTML = user.senha;  
+    document.getElementById("email").innerHTML = user.email;  
+
+
 }
 
 function logout(){
